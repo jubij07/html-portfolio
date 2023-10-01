@@ -1,0 +1,57 @@
+body{
+    margin-left:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(180, 201, 220);
+}
+img{
+    height: 250px;
+    border: 2.5px dashed rgb(11, 11, 11);
+    margin-left: 0px;
+    border-image-width: 10px;
+    position: left;
+
+}
+h1{
+    text-align: center;
+    text-decoration-line:underline;
+    color: rgb(255, 47, 85);
+
+}
+h2[class="pi"]{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 200, 255);
+    color: rgb(0, 0, 0);
+
+}
+p[class="name"]{
+    text-size-adjust:10px;
+    font-size: larger;
+    size: 20px;
+    color: red;
+}
+p[class=" address"]{
+    font-size: large;
+    color: chocolate;
+}
+hr{
+    height:2.5px;
+    color: rgb(44, 1, 1);
+    size: 20px;
+    background-color: red;
+}
+h2[id="qualification-style"]{
+    text-decoration-line: underline;
+    text-decoration-color: darkgreen;
+    
+}
+.college-underline{
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    font-size: 20px;
+}
+.school-style{
+    text-decoration: underline red;
+    font-size: 20px;
+}
